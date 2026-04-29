@@ -1,11 +1,5 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
-.env
-.phpunit.result.cache
-Homestead.json
-Homestead.yaml
-npm-debug.log
-yarn-error.log
+git rm -r --cached vendor
+git rm -r --cached node_modules
+git rm --cached .env
+git commit -m "Clean unnecessary files"
+git push origin master
